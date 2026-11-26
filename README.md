@@ -1,4 +1,4 @@
-# CYBER ENGLISH 2077 — v0.3
+# CYBER ENGLISH 2077 — v0.4
 
 Prototipo educativo de RPG cenital para FP Básica de Informática. Motor Phaser 3.90.0 y JavaScript; la versión anterior Canvas se conserva en game.js. Arte original pixel art generado por código, audio original sintetizado, no utiliza assets comerciales.
 
@@ -26,3 +26,7 @@ Prueba adicional v0.2: escena con API Phaser simulada, creación de cuatro textu
 
 ## v0.3 — Anime Arcade
 Arte original con seis personajes, 96 fotogramas de sprites (16 por personaje), retratos en diálogos, tres escenarios luminosos y nuevo HUD. Motor Phaser 3.90.0; se conservan coordenadas, colisiones, 10 retos/submisiones, fichas, clave pública y progreso local. La dirección artística es anime retro original, no utiliza assets de franquicias. Sintaxis y creación de texturas, retratos, movimiento y cambio de zona comprobados con API simulada; ejecución visual real en navegador pendiente. El panel docente de v0.1 sigue siendo compatible. No se publica el solucionario ni la clave privada.
+
+
+## v0.4 — Grammar & classroom validation
+Teoría de las diez misiones, ocho variantes de reintento por submisión (rotación), sin mostrar soluciones en el feedback. Rechazo docente reinicia reto y ficha y retira XP previo. Nombre y apellidos locales, perfiles locales por nombre. Código de ocho dígitos por nombre normalizado, misión/submisión, intento y decisión; validación final de misión separada. Código determinista verificable en cliente: NO es seguro contra manipulación ni debe usarse como calificación oficial. No enviar nombres al repositorio. Generador docente offline v0.4 requerido. Sintaxis, 80 variantes y flujo de diez aprobaciones, rechazo, reintento, validación final y perfiles probados con DOM simulado; navegador real pendiente.
