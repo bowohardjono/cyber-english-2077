@@ -1,4 +1,4 @@
-# CYBER ENGLISH 2077 — v0.1
+# CYBER ENGLISH 2077 — v0.2
 
 Prototipo educativo de RPG cenital para FP Básica de Informática. Motor HTML5 Canvas y JavaScript, sin dependencias externas; no se ha podido instalar Phaser en el entorno de creación. Arte original pixel art generado por código, audio original sintetizado, no utiliza assets comerciales.
 
@@ -16,3 +16,7 @@ ID anónimo aleatorio, estado y CSV locales. Firma ECDSA P-256 para vincular có
 
 ## Alcance y pruebas
 Implementadas 10 submisiones de Identity Protocol, fichas, panel externo local, guardado, rechazo/aprobación, rúbrica 7/10 configurable, exportación CSV, ciudad y dos interiores. Las nueve misiones restantes son diseño, no jugables. No se han implementado inventario, niveles complejos, voces, retratos, niebla/iluminación dinámica avanzada, edición docente que se sincronice con alumnos ni autenticación en servidor. El arte y audio son de prototipo, no calidad comercial. No se ha usado Codex, Figma para diseño ni Replit para ejecución en esta sesión; Context7 se consultó antes. Prueba Node con DOM simulado pasó validación de firma, rechazo, reintento, 10 aprobaciones y persistencia de estado; la prueba en navegador no se pudo ejecutar por política de navegación del entorno. No se ha probado el movimiento real, la impresión, audio ni la compatibilidad completa en navegador. Verificar antes de usar con alumnos.
+
+
+## v0.2 — Phaser
+El punto de entrada web carga Phaser 3.90.0 desde jsDelivr (fallback unpkg). Nuevo motor de escenas, cámara, sprites y animación, arte original generado como texturas de píxeles, lluvia y luces. Se conserva la lógica educativa, las colisiones geométricas y la clave pública de validación, así como el almacenamiento ce2077.v1. Los archivos game.js y PNG anteriores se conservan para referencia. Los scripts nuevos se han comprobado sintácticamente; aún no se ha verificado la ejecución completa en un navegador real. Se necesita conexión al CDN en primera carga. No se han publicado datos privados ni el panel docente.
