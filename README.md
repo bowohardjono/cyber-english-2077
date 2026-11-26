@@ -1,4 +1,4 @@
-# CYBER ENGLISH 2077 — v0.4
+# CYBER ENGLISH 2077 — v0.5
 
 Prototipo educativo de RPG cenital para FP Básica de Informática. Motor Phaser 3.90.0 y JavaScript; la versión anterior Canvas se conserva en game.js. Arte original pixel art generado por código, audio original sintetizado, no utiliza assets comerciales.
 
@@ -30,3 +30,7 @@ Arte original con seis personajes, 96 fotogramas de sprites (16 por personaje), 
 
 ## v0.4 — Grammar & classroom validation
 Teoría de las diez misiones, ocho variantes de reintento por submisión (rotación), sin mostrar soluciones en el feedback. Rechazo docente reinicia reto y ficha y retira XP previo. Nombre y apellidos locales, perfiles locales por nombre. Código de ocho dígitos por nombre normalizado, misión/submisión, intento y decisión; validación final de misión separada. Código determinista verificable en cliente: NO es seguro contra manipulación ni debe usarse como calificación oficial. No enviar nombres al repositorio. Generador docente offline v0.4 requerido. Sintaxis, 80 variantes y flujo de diez aprobaciones, rechazo, reintento, validación final y perfiles probados con DOM simulado; navegador real pendiente.
+
+
+## v0.5 — Assessment & teacher progression
+Se conservan 10 submisiones, gramática de toda la campaña, arte y motor Phaser 3.90. Se añaden cuatro actividades por variante (orden interactivo, transformación, cambio de género o número y completar), instrucciones en español por pregunta, resultado digital /10 aunque se suspenda y ficha manuscrita con resumen personal en cada intento. Se puede repetir con otra variante o avanzar con autorización docente; el código de ocho cifras v0.5 contiene la nota ponderada de rúbrica y la liga al alumno, actividad e intentos. Penalización 0,3 por intento adicional, máximo 2,4, con suelo positivo si la nota base era positiva. Misión final: rúbrica global independiente y penalización basada en la media de intentos; media de submisiones como referencia. El CSV del juego registra notas digital y docente. El panel docente privado conserva los cinco criterios y exporta registro. El algoritmo público NO ofrece seguridad contra manipulación; no sustituye un registro oficial. Los códigos v0.4 no son compatibles. 90 variantes verificadas estructuralmente, cálculo y códigos probados, flujo de suspenso, reintento, aprobación por debajo de 7, diez validaciones y misión final comprobado con DOM simulado; navegador real y publicación Pages pendientes de comprobación.
